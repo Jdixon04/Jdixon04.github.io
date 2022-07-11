@@ -16,7 +16,10 @@ body {
 	color: #b7b7b8;
 	flex-direction: row;
 	margin:0;
-	;
+	position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
 }
 
 .contact-links{
@@ -29,10 +32,12 @@ body {
 	margin:10px 25%;
 }
 
+
+
 div a {
 	color: #fafafa;
 	text-decoration: none;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 .header-me {
@@ -43,15 +48,47 @@ div a {
 	
 }
 
-main{
+body{
 	background-image: url("https://images.unsplash.com/photo-1519810755548-39cd217da494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80");
 	background-size: cover;
 	background-repeat:no-repeat;
-	margin:0;
+	
+	
 }
 
-img {
+.background-img {
 	border-radius:49%;
 	height:auto;
 	width:200px;
+}
+
+.projects {
+		display: flex;
+		flex-wrap:wrap;
+		color:white;
+		justify-content: space-around;
+		margin:60px;
+}
+
+.individual-project {
+		display: flex;
+		flex-wrap:wrap;
+		align-items: center;
+		flex-direction: column;
+		flex:40%;
+		border:5px black;
+		margin:20px;
+}
+
+.project-img {
+	height:200px;
+	width:200px;
+	
+}
+
+	
+h3 {
+	margin-left: 50px;
+	color: white;
+	font-size:30px;
 }
