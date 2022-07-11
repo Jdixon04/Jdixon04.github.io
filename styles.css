@@ -6,20 +6,36 @@ body {
 	margin: 0;
 }
 
+.header-main {
+	background-image: url("https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1664&q=80");
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin:0;
+	width:auto;
+	height:800px;
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+	flex-direction:column;
+}
+
+h1 {
+	color:white;
+	margin:50px;
+	font-size:60px;
+	font-family: "Lucida Console";
+}
+
 .contact1 {
 	display: flex;
 	justify-content: space-between;
 	align-content: center; 
 	flex-direction: column;
-	background-color: #140b8f;
+	background-color: #01081E;
 	padding: 10px;
 	color: #b7b7b8;
 	flex-direction: row;
 	margin:0;
-	position: fixed; // makes footer sticky;
-	   left: 0;
-	   bottom: 0;
-	   width: 100%;
 }
 
 .contact-links{
@@ -29,10 +45,37 @@ body {
 	flex-direction: row;
 	flex-wrap:wrap;
 	padding: 0px;
-	margin:10px 25%;
+	margin:10px;
+	font-size:30px;
+	font-family: "Lucida Console";
+	
 }
 
+.nav1 {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center; 
+	background-color: #26304c;
+	padding: 10px;
+	color: #FFFFFF;
+	flex-direction: row;
+}
 
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	align-content: center; 
+	flex-direction: row;
+	flex-wrap:wrap;
+	padding: 0px;
+	font-size:30px;
+	font-family: "Lucida Console";
+	color:white;
+}
+
+.top-links {
+	color:#FFFFFF;
+}
 
 div a {
 	color: #fafafa;
@@ -48,18 +91,17 @@ div a {
 	
 }
 
-body{
+main{
 	background-image: url("https://images.unsplash.com/photo-1519810755548-39cd217da494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80");
 	background-size: cover;
 	background-repeat:no-repeat;
-	
-	
 }
 
 .background-img {
 	border-radius:49%;
 	height:auto;
 	width:200px;
+	margin:20px;
 }
 
 .projects {
@@ -67,7 +109,7 @@ body{
 		flex-wrap:wrap;
 		color:white;
 		justify-content: space-around;
-		margin:60px;
+		margin:60px 60px 0 60px;
 }
 
 .individual-project {
@@ -101,4 +143,9 @@ h3 {
 @media screen and (max-width: 810px) {
 	.contact-links {
 		margin:0;
+		display: flex;
+		flex-wrap:wrap;
+		
+		flex-direction: column;
+		
 }
