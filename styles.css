@@ -16,7 +16,7 @@ body {
 	color: #b7b7b8;
 	flex-direction: row;
 	margin:0;
-	position: fixed;
+	position: fixed; // makes footer sticky;
 	   left: 0;
 	   bottom: 0;
 	   width: 100%;
@@ -83,12 +83,22 @@ body{
 .project-img {
 	height:200px;
 	width:200px;
-	
 }
 
-	
+p {
+		width:75%;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+}
+
 h3 {
 	margin-left: 50px;
 	color: white;
 	font-size:30px;
+}
+
+@media screen and (max-width: 810px) {
+	.contact-links {
+		margin:0;
 }
