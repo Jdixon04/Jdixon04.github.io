@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.contact1 {
+	display: flex;
+	justify-content: space-between;
+	align-content: center; 
+	flex-direction: column;
+	background-color: #f8f8f8;
+	padding: 10px;
+	color: #b7b7b8;
+	flex-direction: row;
+	margin:0;
+	;
+}
+
+.contact-links{
+	display: flex;
+	justify-content: space-around;
+	align-content: center; 
+	flex-direction: row;
+	flex-wrap:wrap;
+	padding: 0px;
+	margin:10px 25%;
+}
+
+div a {
+	color: #fafafa;
+	text-decoration: none;
+	margin-left: 30px;
+}
