@@ -47,8 +47,9 @@ h1 {
 	flex-wrap:wrap;
 	padding: 0px;
 	margin:10px;
-	font-size:30px;
-	font-family: "Lucida Console";
+	font-size:40px;
+	font-family:'Bebas Neue', cursive;
+	color:#FFFFFF;;
 	
 }
 
@@ -70,8 +71,13 @@ h1 {
 	flex-wrap:wrap;
 	padding: 0px;
 	font-size:30px;
-	font-family: "Lucida Console";
+	font-family: 'Major Mono Display', monospace;
 	color:white;
+	transition:transform .2s ;
+}
+
+.nav-links a:hover {
+	transform: scale(1.2);
 }
 
 .contact {
@@ -81,8 +87,8 @@ h1 {
 	flex-direction: row;
 	flex-wrap:wrap;
 	padding: 0px;
-	font-size:30px;
-	font-family: "Lucida Console";
+	font-size:40px;
+  font-family: 'Bebas Neue', cursive;
 	color:white;
 }
 
@@ -170,15 +176,29 @@ h2 {
 	font-size:30px;
 	margin-top:-10px;
 	margin-bottom:20px;
-
-	
 }
-@media screen and (max-width: 810px) {
+	
+	
+
+@media screen and (max-width: 750px) {
 	.contact-links {
 		margin:0;
 		display: flex;
 		flex-wrap:wrap;
 		flex-direction: column;
+	}
+	.nav-links {
+		margin:0;
+		display: flex;
+		flex-wrap:wrap;
+		flex-direction: column;
+		
+	}
+	
+	.individual-project {
+
+			flex:80%;
+
 	}
 
 }
