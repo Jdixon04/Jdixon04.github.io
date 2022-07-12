@@ -73,6 +73,18 @@ h1 {
 	color:white;
 }
 
+.contact {
+	display: flex;
+	justify-content: space-around;
+	align-content: center; 
+	flex-direction: row;
+	flex-wrap:wrap;
+	padding: 0px;
+	font-size:30px;
+	font-family: "Lucida Console";
+	color:white;
+}
+
 .top-links {
 	color:#FFFFFF;
 }
@@ -81,11 +93,6 @@ div a {
 	color: #fafafa;
 	text-decoration: none;
 	margin-left: 40px;
-	background-color:#121824;
-	border-radius:5px;
-	border-style: solid;
-	border-width: 5px;
-	border-color:#121824;
 	text-decoration: underline;
 }
 
@@ -98,9 +105,10 @@ div a {
 }
 
 main{
-	background-image: url("https://images.unsplash.com/photo-1519810755548-39cd217da494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80");
+	background-image: url("https://images.unsplash.com/photo-1605441319085-0a36e0809874?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
 	background-size: cover;
 	background-repeat:no-repeat;
+	background-position: center center;
 }
 
 .background-img {
@@ -131,17 +139,18 @@ main{
 .project-img {
 	height:200px;
 	width:200px;
+	border-radius:50%;
 }
 
 p {
-		width:75%;
+		width:60%;
 		display: flex;
 		flex-direction: column;
 		align-items:center;
 }
 
 h3 {
-	margin-left: 50px;
+	margin-left: 47%;
 	color: white;
 	font-size:30px;
 }
