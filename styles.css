@@ -24,6 +24,7 @@ h1 {
 	margin:50px;
 	font-size:60px;
 	font-family: "Lucida Console";
+	
 }
 
 .contact1 {
@@ -114,7 +115,7 @@ main{
 .background-img {
 	border-radius:49%;
 	height:auto;
-	width:200px;
+	width:250px;
 	margin:20px;
 }
 
@@ -143,12 +144,15 @@ main{
 }
 
 p {
-		width:70%;
+		width:65%;
 		display: flex;
 		flex-direction: column;
 		align-items:center;
 		font-family: 'Montserrat', sans-serif;
-		font-size:19px;
+		font-size:23px;
+	  position: relative;
+	  bottom: 27px;
+		
 }
 
 h3 {
@@ -157,6 +161,18 @@ h3 {
 	font-size:30px;
 }
 
+h2 {
+	width:65%;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	margin-top:-10px;
+	margin-bottom:20px;
+
+	
+}
 @media screen and (max-width: 810px) {
 	.contact-links {
 		margin:0;
