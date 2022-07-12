@@ -81,6 +81,12 @@ div a {
 	color: #fafafa;
 	text-decoration: none;
 	margin-left: 40px;
+	background-color:#121824;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#121824;
+	text-decoration: underline;
 }
 
 .header-me {
@@ -144,8 +150,7 @@ h3 {
 	.contact-links {
 		margin:0;
 		display: flex;
-		flex-wrap:wrap;
-		
+		flex-wrap:wrap;ß
 		flex-direction: column;
 		
 }
