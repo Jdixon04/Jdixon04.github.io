@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.nav1 {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center; 
+	background-color: #141B29;
+	padding: 10px;
+	color: #FFFFFF;
+	flex-direction: row;
+	margin:0;
+}
+
+.back {
+	position: relative;
+	margin:0;
+}
+
+h1{
+	margin:0 38%;
+}
+
+main{ 
+	display: flex;
+	justify-content: flex-start;
+	align-content: center; 
+	flex-direction:column;
+	align-items:center;
+}
+
+img{
+	margin:40px;
+	height:500px;
+	width:auto;
+}
+
+p{
+	width:60%;
+}
+
+.project-links{
+	display: flex;
+	margin:50px;
+}
