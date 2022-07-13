@@ -32,7 +32,7 @@ h1 {
 	justify-content: space-between;
 	align-content: center; 
 	flex-direction: column;
-	background-color: #01081E;
+	background-color: #060606;
 	padding: 10px;
 	color: #b7b7b8;
 	flex-direction: row;
@@ -62,7 +62,7 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-content: center; 
-	background-color: #26304c;
+	background-color: #141B29;
 	padding: 10px;
 	color: #FFFFFF;
 	flex-direction: row;
@@ -140,21 +140,45 @@ main{
 
 .individual-project {
 		display: flex;
-		flex-wrap:wrap;
+		flex-wrap:nowrap;
 		align-items: center;
 		flex-direction: column;
 		flex:40%;
-		border:5px black;
-		margin:20px;
+		margin:40px;
+		width:250px;
+		border:outset 3px rgba(0,0,0,0);
+}
+
+.individual-project:hover {
+	border:outset 3px #B5B5B5;
+	border-radius:10%;
 }
 
 .project-img {
 	height:200px;
 	width:200px;
 	border-radius:50%;
+	filter: blur(5px);
+	transition:.5s;
 }
 
-p {
+.project-img:hover {
+	filter: none;
+}
+
+.product-description {
+		width:65%;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		font-family: 'Montserrat', sans-serif;
+		font-size:20px;
+	  position: relative;
+	  bottom: 10px;
+		
+}
+
+.about-text {
 		width:65%;
 		display: flex;
 		flex-direction: column;
@@ -166,10 +190,28 @@ p {
 		
 }
 
-h3 {
-	margin-left: 47%;
+h4{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 	font-size:30px;
+	margin:10px;
+	text-decoration:underline; 
+	font-weight: bold;
+}
+
+
+h3 {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	color: white;
+	font-family: 'Major Mono Display', monospace;
+	font-size:40px;
+	margin:0;
+	text-decoration:underline; 
 }
 
 h2 {
@@ -177,8 +219,8 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
-	font-family: 'Montserrat', sans-serif;
-	font-size:30px;
+	font-family: 'Major Mono Display', monospace;
+	font-size:40px;
 	margin-top:-10px;
 	margin-bottom:20px;
 }
@@ -191,6 +233,7 @@ h2 {
 		display: flex;
 		flex-wrap:wrap;
 		flex-direction: column;
+		justify-content:space-around;
 	}
 	.nav-links {
 		margin:0;
@@ -198,6 +241,14 @@ h2 {
 		flex-wrap:wrap;
 		flex-direction: column;
 		
+	}
+	
+	.nav1 {
+		justify-content:space-around;
+	}
+	
+	.contact1 {
+		justify-content:space-around;
 	}
 	
 	.individual-project {
