@@ -49,7 +49,7 @@ h1 {
 	margin:10px;
 	font-size:40px;
 	font-family:'Bebas Neue', cursive;
-	color:#FFFFFF;;
+	color:#FFFFFF;
 	
 }
 
@@ -201,9 +201,7 @@ h2 {
 	}
 	
 	.individual-project {
-
-			flex:80%;
-
+		flex:80%;
 	}
 
 }
