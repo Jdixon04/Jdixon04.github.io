@@ -32,7 +32,7 @@ h1 {
 	justify-content: space-between;
 	align-content: center; 
 	flex-direction: column;
-	background-color: #01081E;
+	background-color: #060606;
 	padding: 10px;
 	color: #b7b7b8;
 	flex-direction: row;
@@ -146,12 +146,11 @@ main{
 		flex:40%;
 		margin:50px;
 		width:250px;
+		border:outset 3px rgba(0,0,0,0);
 }
 
 .individual-project:hover {
 	border:outset 3px #B5B5B5;
-	margin:48px;
-	width:250px;
 	border-radius:10%;
 }
 
