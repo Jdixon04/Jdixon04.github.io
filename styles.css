@@ -140,21 +140,46 @@ main{
 
 .individual-project {
 		display: flex;
-		flex-wrap:wrap;
+		flex-wrap:nowrap;
 		align-items: center;
 		flex-direction: column;
 		flex:40%;
-		border:5px black;
-		margin:20px;
+		margin:50px;
+		width:250px;
+}
+
+.individual-project:hover {
+	border:outset 3px #B5B5B5;
+	margin:48px;
+	width:250px;
+	border-radius:10%;
 }
 
 .project-img {
 	height:200px;
 	width:200px;
 	border-radius:50%;
+	filter: blur(5px);
+	transition:.5s;
 }
 
-p {
+.project-img:hover {
+	filter: none;
+}
+
+.product-description {
+		width:65%;
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		font-family: 'Montserrat', sans-serif;
+		font-size:18px;
+	  position: relative;
+	  bottom: 10px;
+		
+}
+
+.about-text {
 		width:65%;
 		display: flex;
 		flex-direction: column;
@@ -167,9 +192,14 @@ p {
 }
 
 h3 {
-	margin-left: 47%;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
 	color: white;
-	font-size:30px;
+	font-family: 'Major Mono Display', monospace;
+	font-size:40px;
+	margin:0;
+	text-decoration:underline; 
 }
 
 h2 {
@@ -177,8 +207,8 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
-	font-family: 'Montserrat', sans-serif;
-	font-size:30px;
+	font-family: 'Major Mono Display', monospace;
+	font-size:40px;
 	margin-top:-10px;
 	margin-bottom:20px;
 }
@@ -191,6 +221,7 @@ h2 {
 		display: flex;
 		flex-wrap:wrap;
 		flex-direction: column;
+		justify-content:space-around;
 	}
 	.nav-links {
 		margin:0;
@@ -198,6 +229,14 @@ h2 {
 		flex-wrap:wrap;
 		flex-direction: column;
 		
+	}
+	
+	.nav1 {
+		justify-content:space-around;
+	}
+	
+	.contact1 {
+		justify-content:space-around;
 	}
 	
 	.individual-project {
