@@ -8,9 +8,9 @@ body {
 
 nav {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-content: center; 
-	background-color: #141B29;
+	background-color: #06171F;
 	padding: 10px;
 	color: #FFFFFF;
 	flex-direction: row;
@@ -23,13 +23,17 @@ nav {
 }
 
 h1{
-	margin:0 37.5%;
+  margin:0;
 	display: flex;
 	align-content: center; 
 	align-items:center;
+	position: relative;
+	right:48%;
+	font-family: 'Major Mono Display', monospace;
 }
 
 main{ 
+	background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
 	display: flex;
 	justify-content: flex-start;
 	align-content: center; 
@@ -39,12 +43,15 @@ main{
 
 img{
 	margin:40px;
-	height:500px;
+	height:450px;
 	width:auto;
+	border-radius:10%;
 }
 
 p{
 	width:60%;
+	color:#ffffff;
+	margin
 }
 
 .project-links{
@@ -54,12 +61,13 @@ p{
 
 .project-buttons{
 	display: flex;
-	margin:10px;
+	margin:0;
 	width:100%;
 	justify-content:space-evenly;
 }
 
 .button {
+	font-size:25px;
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
@@ -69,4 +77,5 @@ p{
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
 	margin:5px;
+	border-radius:10px;
 }
