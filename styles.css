@@ -1,6 +1,4 @@
-* {
-	box-sizing: border-box;
-}
+
 
 body {
 	margin: 0;
@@ -10,12 +8,10 @@ body {
 	background-image: url("https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1664&q=80");
 	background-size: cover;
 	background-repeat:no-repeat;
-	margin:0;
 	width:auto;
 	height:800px;
 	display: flex;
 	justify-content: center;
-	align-content: center; 
 	flex-direction:column;
 }
 
@@ -29,23 +25,12 @@ h1 {
 
 .contact1 {
 	display: flex;
-	justify-content: space-between;
-	align-content: center; 
-	flex-direction: column;
 	background-color: #060606;
 	padding: 10px;
-	color: #b7b7b8;
-	flex-direction: row;
-	margin:0;
 }
 
 .contact-links{
 	display: flex;
-	justify-content: space-around;
-	align-content: center; 
-	flex-direction: row;
-	flex-wrap:wrap;
-	padding: 0px;
 	margin:10px;
 	font-size:40px;
 	font-family:'Bebas Neue', cursive;
@@ -60,21 +45,12 @@ h1 {
 
 .nav1 {
 	display: flex;
-	justify-content: flex-start;
-	align-content: center; 
 	background-color: #141B29;
 	padding: 10px;
-	color: #FFFFFF;
-	flex-direction: row;
 }
 
 .nav-links{
 	display: flex;
-	justify-content: space-around;
-	align-content: center; 
-	flex-direction: row;
-	flex-wrap:wrap;
-	padding: 0px;
 	font-size:30px;
 	font-family: 'Major Mono Display', monospace;
 	color:white;
@@ -86,14 +62,6 @@ h1 {
 }
 
 .contact {
-	display: flex;
-	justify-content: space-around;
-	align-content: center; 
-	flex-direction: row;
-	flex-wrap:wrap;
-	padding: 0px;
-	font-size:40px;
-  font-family: 'Bebas Neue', cursive;
 	color:white;
 }
 
@@ -102,8 +70,6 @@ h1 {
 }
 
 div a {
-	color: #fafafa;
-	text-decoration: none;
 	margin-left: 40px;
 	text-decoration: underline;
 }
