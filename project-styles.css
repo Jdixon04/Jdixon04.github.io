@@ -46,5 +46,12 @@ p{
 
 .project-links{
 	display: flex;
-	margin:50px;
+	margin:0;
+}
+
+.project-buttons{
+	display: flex;
+	margin:10px;
+	width:100%;
+	justify-content:space-evenly;
 }
