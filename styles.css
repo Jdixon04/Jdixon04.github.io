@@ -8,7 +8,6 @@ body {
 	background-image: url("https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1664&q=80");
 	background-size: cover;
 	background-repeat:no-repeat;
-	width:auto;
 	height:800px;
 	display: flex;
 	justify-content: center;
@@ -20,7 +19,6 @@ h1 {
 	margin:50px;
 	font-size:60px;
 	font-family: 'Major Mono Display', monospace;
-	
 }
 
 .contact1 {
@@ -71,7 +69,6 @@ h1 {
 
 div a {
 	margin-left: 40px;
-	text-decoration: underline;
 }
 
 .header-me {
@@ -100,18 +97,15 @@ main{
 		display: flex;
 		flex-wrap:wrap;
 		color:white;
-		justify-content: space-around;
 		margin:60px 60px 0 60px;
 }
 
 .individual-project {
 		display: flex;
-		flex-wrap:nowrap;
 		align-items: center;
 		flex-direction: column;
 		flex:40%;
 		margin:40px;
-		width:250px;
 		border:outset 3px rgba(0,0,0,0);
 }
 
@@ -136,38 +130,25 @@ main{
 
 .product-description {
 		width:65%;
-		display: flex;
-		flex-direction: column;
-		align-items:center;
 		font-family: 'Montserrat', sans-serif;
 		font-size:20px;
 	  position: relative;
-	  bottom: 10px;
-		
+	  bottom: 10px;	
 }
 
 .about-text {
 		width:65%;
-		display: flex;
-		flex-direction: column;
-		align-items:center;
 		font-family: 'Montserrat', sans-serif;
 		font-size:23px;
 	  position: relative;
-	  bottom: 27px;
-		
+	  bottom: 27px;	
 }
 
 h4{
-	display: flex;
-	flex-direction: column;
-	align-items:center;
-	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size:30px;
 	margin:10px;
 	text-decoration:underline; 
-	font-weight: bold;
 }
 
 
@@ -183,18 +164,12 @@ h3 {
 }
 
 h2 {
-	width:65%;
-	display: flex;
-	flex-direction: column;
-	align-items:center;
 	font-family: 'Major Mono Display', monospace;
 	font-size:40px;
 	margin-top:-10px;
 	margin-bottom:20px;
 }
 	
-	
-
 @media screen and (max-width: 750px) {
 	.contact-links {
 		margin:0;
@@ -208,13 +183,10 @@ h2 {
 		display: flex;
 		flex-wrap:wrap;
 		flex-direction: column;
-		
 	}
-	
 	.nav1 {
 		justify-content:space-around;
 	}
-	
 	.contact1 {
 		justify-content:space-around;
 	}
@@ -222,5 +194,4 @@ h2 {
 	.individual-project {
 		flex:80%;
 	}
-
 }
