@@ -41,7 +41,7 @@ h1 {
 	color:#7A0505;
 }
 
-.nav {
+nav {
 	display: flex;
 	background-color: #141B29;
 	padding: 10px;
@@ -113,7 +113,7 @@ main {
 	border-radius:10%;
 }
 
-.project-img {
+.individual-project img {
 	height:200px;
 	width:200px;
 	border-radius:50%;
@@ -123,7 +123,7 @@ main {
   right: 20px;
 }
 
-.project-img:hover {
+.individual-project img:hover {
 	filter: none;
 }
 
